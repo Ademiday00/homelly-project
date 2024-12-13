@@ -788,6 +788,7 @@ h2 {
   }
   .modal-content {
     margin-top: 100px;
+    padding-bottom: -5px;
   }
   .modal-content {
     width: 80%;
@@ -811,6 +812,15 @@ h2 {
     flex-direction: column;
     margin: 0;
     padding: 20px;
+  }
+  .CartButtoncloseorder {
+    margin-bottom: 20px;
+  }
+  #cartClose {
+    padding: 15px 25px;
+  }
+  #Ordebackpage {
+    padding: 15px 25px;
   }
   .email {
     width: 50%;
