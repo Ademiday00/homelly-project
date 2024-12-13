@@ -338,6 +338,12 @@ button a {
   z-index: 1000;
   overflow: auto;
 }
+#cartClose {
+  padding: 10px 20px;
+}
+#Ordebackpage {
+  padding: 10px 20px;
+}
 .about-content {
   background-color: white;
   margin: 15% auto;
@@ -816,11 +822,12 @@ h2 {
     margin-bottom: 20px;
   }
   #cartClose {
-    padding: 15px 25px;
+    padding: 10px 20px;
   }
   #Ordebackpage {
-    padding: 15px 25px;
+    padding: 10px 20px;
   }
+
   .email {
     width: 50%;
     border-radius: 10px;
