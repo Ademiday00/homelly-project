@@ -225,7 +225,7 @@ logoutBtn.addEventListener("click", () => {
 });
 function logout() {
   localStorage.removeItem("userdetails");
-  OrdeBtn.disabled = true;
+  // OrdeBtn.disabled = true;
   document.getElementById("Logindetails").style.display = "block";
   document.getElementById("registerdetails").style.display = "block";
   document.getElementById("logout").style.display = "none";

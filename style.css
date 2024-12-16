@@ -1477,10 +1477,23 @@ h2 {
   .enyoy h1 {
     font-size: 55px;
     line-height: 5rem;
+    margin: 0;
   }
   .enyoy p {
     font-size: 20px;
     line-height: 2.5rem;
+  }
+  .easyorder {
+    background-color: white;
+    padding: 60px;
+  }
+  .fastdelivery {
+    background-color: white;
+    padding: 60px;
+  }
+  .quality {
+    background-color: white;
+    padding: 60px;
   }
   .Aboutus {
     margin: 0;
@@ -1535,8 +1548,24 @@ h2 {
     max-height: 5%;
     margin: 0px;
   }
+  .testimonials {
+    margin: 0;
+    padding: 50px;
+  }
   #Signup-section {
     padding: 20px 10px;
     margin: 150px auto;
   }
+  .purpose {
+    margin: 0;
+    padding: 50px;
+    width: 90%;
+  }
+  .purpose .pp {
+    margin: -30px;
+    padding-left: 10px;
+  }
+
+  /* .home p {
+  } */
 }
