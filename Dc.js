@@ -216,6 +216,7 @@ if (userdetails) {
   document.getElementById("registerdetails").style.display = "block";
   document.getElementById("logout").style.display = "none";
   document.getElementById("cartbtn").style.display = "none";
+  window.location.href = "login.html";
 }
 
 const logoutBtn = document.getElementById("logout");
