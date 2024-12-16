@@ -197,9 +197,9 @@ menu.addEventListener("click", () => {
   navbar.classList.toggle("navbar-toggle");
 });
 
-function Order() {
-  window.location.href = "dev.html";
-}
+// function Order() {
+//   window.location.href = "dev.html";
+// }
 
 const userdetails = JSON.parse(localStorage.getItem("userdetails"));
 if (userdetails) {
@@ -208,7 +208,7 @@ if (userdetails) {
   document.getElementById("logout").style.display = "block";
   document.getElementById("cartbtn").style.display = "block";
   document.getElementById("order").addEventListener("click", () => {
-    Order();
+    // Order();
   });
 } else {
   // OrdeBtn.disabled = true;
