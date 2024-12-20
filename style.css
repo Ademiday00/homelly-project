@@ -107,8 +107,8 @@ button a {
 }
 .enyoy h1 {
   font-size: 50px;
-  /* margin: 0 auto; */
-  /* width: 400px; */
+  /* margin: 0 auto;
+  width: 350px; */
 }
 .enyoy p {
   line-height: 2rem;
@@ -168,7 +168,6 @@ button a {
 .section p {
   width: 162px;
   margin: 0 auto;
-  text-align: left;
 }
 .easyorder {
   background-color: white;
@@ -228,6 +227,7 @@ button a {
 }
 #homepageback {
   background-color: rgb(40, 94, 94);
+  margin: 50px;
 }
 .Aboutus h4 {
   font-size: 40px;
@@ -519,7 +519,7 @@ h2 {
   background-color: white;
   margin: 5% auto;
   padding: 20px;
-  width: 200%;
+  width: 300px;
   max-width: 400px;
   align-items: center;
   /* padding-bottom: 80px; */
@@ -567,9 +567,12 @@ h2 {
 .foot {
   display: flex;
   justify-content: space-between;
-  margin: 20px 0px;
-  padding: 10px 0px;
+  margin: 5px 0px;
+  padding: 20px 0px;
   border-top: 1px solid #333;
+}
+.CartButtoncloseorder {
+  transform: translateY(-10px);
 }
 
 h2 {
