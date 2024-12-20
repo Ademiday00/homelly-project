@@ -161,11 +161,12 @@ button a {
   text-align: center;
   width: 90%;
   margin: 20px auto 20px;
+  /* text-align: left; */
 
   /* line-height: 2rem; */
 }
 .section p {
-  width: 152px;
+  width: 162px;
   margin: 0 auto;
   text-align: left;
 }
@@ -846,16 +847,25 @@ h2 {
     margin: 0 auto;
     width: 350px;
   }
+
   .play img {
     justify-items: center;
-    width: 20%;
-    height: 30%;
+    width: 40%;
+    height: auto;
     margin: 0;
+    object-fit: contain;
+    object-position: top;
   }
-  .play .appstore img {
-    width: 20%;
-    height: 20%;
+  /* .play .appstore img {
+    width: 270px;
+    height: a;
+    margin: auto;
   }
+  .play .playstore img {
+    width: 270px;
+    height: 270px;
+    margin: auto;
+  } */
   .modal-content {
     margin-top: 100px;
   }
