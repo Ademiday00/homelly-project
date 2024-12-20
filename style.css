@@ -805,8 +805,10 @@ h2 {
   .Aboutus {
     flex-direction: column;
     margin: 0;
-    padding: 20px;
-    width: 90%;
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+    font-size: medium;
   }
   .details {
     padding: 0;
@@ -825,6 +827,8 @@ h2 {
     flex-direction: column;
     margin: 0 15px;
     padding: 0;
+    text-align: center;
+    font-size: medium;
   }
   .purpose p {
     line-height: 2rem;
@@ -864,6 +868,7 @@ h2 {
     flex-direction: column;
     margin: 0;
     padding: 20px;
+    font-size: medium;
   }
   .CartButtoncloseorder {
     margin-bottom: 20px;
@@ -890,6 +895,7 @@ h2 {
     padding: 20px;
     gap: 20px;
     line-height: 2rem;
+    font-size: medium;
   }
   .soc-img {
     flex-direction: row;
