@@ -774,6 +774,7 @@ h2 {
   .section {
     grid-template-columns: repeat(1, 1fr);
     padding: 20px;
+    width: 350px;
   }
   .easyorder {
     background-color: white;
@@ -804,9 +805,8 @@ h2 {
 
   .Aboutus {
     flex-direction: column;
-    margin: 0;
-    padding: 10px;
-    width: 300px;
+    margin: 0 15px;
+    padding: 0;
     text-align: center;
     font-size: medium;
   }
@@ -816,6 +816,8 @@ h2 {
   }
   .Aboutus p {
     line-height: 2rem;
+    margin: 0 auto;
+    width: 350px;
   }
   .Aboutus img {
     width: 60%;
@@ -832,7 +834,8 @@ h2 {
   }
   .purpose p {
     line-height: 2rem;
-    margin: 0 10px;
+    margin: 0 auto;
+    width: 350px;
   }
   .play img {
     justify-items: center;
