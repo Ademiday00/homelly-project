@@ -774,7 +774,7 @@ h2 {
   .section {
     grid-template-columns: repeat(1, 1fr);
     padding: 20px;
-    width: 350px;
+    width: 370px;
   }
   .easyorder {
     background-color: white;
