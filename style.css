@@ -754,6 +754,7 @@ h2 {
   }
   /* .home p {
   } */
+
   .enyoy {
     margin: 0;
     padding-top: 0px;
@@ -871,10 +872,20 @@ h2 {
   } */
   .modal-content {
     margin-top: 100px;
+    margin-bottom: 100px;
   }
   .modal-content {
-    width: 80%;
+    width: 300px;
   }
+  /* .modal-content {
+    background-color: white;
+    margin: 5% auto;
+    padding: 20px;
+    width: 300px;
+    max-width: 400px;
+    align-items: center;
+    /* padding-bottom: 80px; */
+
   .about-content p {
     width: 320px;
   }
@@ -900,7 +911,11 @@ h2 {
     font-size: medium;
   }
   .CartButtoncloseorder {
-    margin-bottom: 20px;
+    padding-bottom: 10px;
+    transform: translateY(-60px);
+  }
+  #cart-modal {
+    padding-bottom: 30px;
   }
   #cartClose {
     padding: 10px 20px;
