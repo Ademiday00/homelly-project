@@ -161,16 +161,21 @@ button a {
   text-align: center;
   width: 90%;
   margin: 20px auto 20px;
+
   /* line-height: 2rem; */
 }
 .section p {
   width: 152px;
   margin: 0 auto;
+  text-align: left;
 }
 .easyorder {
   background-color: white;
   padding: 80px;
 }
+/* .easyorder p {
+  text-align: left;
+} */
 .fastdelivery {
   background-color: white;
   padding: 80px;
@@ -230,6 +235,7 @@ button a {
 .Aboutus p {
   width: 400px;
   margin: 0 auto;
+  text-align: left;
 }
 .Aboutus button {
   border: none;
@@ -289,6 +295,7 @@ button a {
   margin: 0 auto;
   width: 400px;
   line-height: 2rem;
+  text-align: left;
 }
 
 .testom {
@@ -304,6 +311,7 @@ button a {
 .testimonials p {
   width: 300px;
   margin: 0 auto;
+  text-align: left;
 }
 .testimonials {
   display: flex;
@@ -776,6 +784,7 @@ h2 {
     padding: 20px;
     width: 300px;
   }
+
   .easyorder {
     background-color: white;
     padding: 60px;
@@ -1021,6 +1030,12 @@ h2 {
   .dailydishes button {
     margin-top: 50px;
   }
+  .container {
+    text-align: left;
+  }
+  .home p {
+    margin: 0;
+  }
 }
 @media only screen and (min-width: 600px) and (max-width: 768px) {
   #flex {
@@ -1028,6 +1043,12 @@ h2 {
     padding: 0;
     margin: 50px auto;
     width: 90%;
+  }
+  .container {
+    text-align: left;
+  }
+  .home p {
+    margin: 0;
   }
   .enyoy {
     margin: 0;
