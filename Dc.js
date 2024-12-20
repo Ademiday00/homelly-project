@@ -207,16 +207,16 @@ if (userdetails) {
   document.getElementById("registerdetails").style.display = "none";
   document.getElementById("logout").style.display = "block";
   document.getElementById("cartbtn").style.display = "block";
-  document.getElementById("order").addEventListener("click", () => {
-    // Order();
-  });
+  // document.getElementById("order").addEventListener("click", () => {
+  //   // Order();
+  // });
 } else {
   // OrdeBtn.disabled = true;
   document.getElementById("Logindetails").style.display = "block";
   document.getElementById("registerdetails").style.display = "block";
   document.getElementById("logout").style.display = "none";
   document.getElementById("cartbtn").style.display = "none";
-  window.location.href = "login.html";
+  // window.location.href = "login.html";
 }
 
 const logoutBtn = document.getElementById("logout");
